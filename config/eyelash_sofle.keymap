@@ -4,8 +4,6 @@
 #include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 /*
@@ -67,7 +65,7 @@
             bindings = <
 &kp GRAVE   &kp F1          &kp F2          &kp F3           &kp F4     &kp F5       &mmv MOVE_UP     &kp F6     &kp F7   &kp F8     &kp F9            &kp F10            &kp DELETE
 &kp TAB     &kp HOME        &kp UP_ARROW    &kp END          &kp PG_UP  &kp T        &mmv MOVE_DOWN   &kp Y      &kp U    &kp I      &kp O             &kp LEFT_BRACKET   &kp RIGHT_BRACKET
-&none       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN  &kp G        &mmv MOVE_LEFT   &kp H      &kp J    &kp K      &kp L             &kp SEMI           &kp APOS
+&none       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PG_DN  &kp F24      &mmv MOVE_LEFT   &kp H      &kp J    &kp K      &kp L             &kp SEMI           &kp APOS
 &kp LSHFT   &kp Z           &kp X           &kp C            &kp V      &kp B        &mmv MOVE_RIGHT  &kp N      &kp M    &kp COMMA  &kp DOT           &kp FSLH           &kp ENTER
 &kp C_MUTE  &kp LCTRL       &kp LEFT_GUI    &kp LEFT_ALT     &kp LCTRL  &kp SPACE    &mkp LCLK        &kp ENTER  &kp F11  &kp F12    &kp LEFT_BRACKET  &kp RIGHT_BRACKET
             >;
